@@ -8,37 +8,48 @@
   </head>
 
   <body>
-    <div class="container">
-      <form id="form" class="form">
-        <h1>Register with us</h1>
-        <div class="form-control">
-          <label for="username">Username</label>
-          <input type="text" id="username" placeholder="Enter username" />
-          <small>error message</small>
-        </div>
-        <div class="form-control">
-          <label for="email">Email</label>
-          <input type="text" id="email" placeholder="Enter email" />
-          <small>error message</small>
-        </div>
-        <div class="form-control">
-          <label for="password">Password</label>
-          <input type="password" id="password" placeholder="Enter password" />
-          <small>error message</small>
-        </div>
-        <div class="form-control">
-          <label for="password2">Confirm your password</label>
-          <input
-            type="password"
-            id="password2"
-            placeholder="Confirm password"
-          />
-          <small>error message</small>
-        </div>
-        <button>Submit</button>
-      </form>
+    <div class="logo">
+      <img src="logo.png" alt="logo" width="60px" id="logoo" />
+      <p id="title">Donuts Company</p>
     </div>
-
-    <script src="script.js"></script>
+    <div class="content">
+      <div class="container">
+        <form id="form" class="form">
+          <h1>Register</h1>
+          <h2>to receive your donut</h2>
+          <div class="form-control">
+            <label for="username">Username</label>
+            <input type="text" id="username" placeholder="Enter username" />
+            <small>error message</small>
+          </div>
+          <div class="form-control">
+            <label for="email">Email</label>
+            <input type="text" id="email" placeholder="Enter email" />
+            <small>error message</small>
+          </div>
+          <div class="form-control">
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter password" />
+            <small>error message</small>
+          </div>
+          <div class="form-control">
+            <label for="password2">Confirm your password</label>
+            <input
+              type="password"
+              id="password2"
+              placeholder="Confirm password"
+            />
+            <small>error message</small>
+          </div>
+          <button>Submit</button>
+        </form>
+      </div>
+      <video height="500px" width="500px" id="dd">
+        <source src="donut.mp4" type="video/mp4" />
+      </video>
+      <div>
+        <script src="script.js"></script>
+      </div>
+    </div>
   </body>
 </html>
