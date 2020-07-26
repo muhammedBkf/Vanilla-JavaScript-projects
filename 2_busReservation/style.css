@@ -34,10 +34,6 @@ body {
 }
 
 .destination-container {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
   margin-top: 100px;
   color: #fff;
   font-weight: 550;
@@ -70,15 +66,9 @@ body {
 .seat.occupied {
   background-color: #ffffff;
 }
-.container {
-  background-color: rgba(0, 0, 0, 0.2);
-  padding: 15px;
-  padding-top: 20px;
-  border-radius: 5px;
-}
 
 .seat:nth-of-type(2) {
-  margin-right: 25px;
+  margin-right: 15px;
 }
 .row {
   display: flex;
@@ -111,7 +101,4 @@ body {
 }
 .showcase li small {
   margin-left: 2px;
-}
-span {
-  color: #fff;
 }

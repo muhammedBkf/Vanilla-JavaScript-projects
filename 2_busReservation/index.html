@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href="bus.png" />
+
     <title>Bus reservation</title>
   </head>
   <body>
@@ -12,8 +12,8 @@
       <div class="containerr">
         <h1 style="color: #fff;">Book your seat</h1>
         <div class="destination-container">
-          <label style="margin-right: 10px;">Choose a destination</label>
-          <select value="destination" id="destination">
+          <label>Choose a destination</label>
+          <select value="destination" name="destination">
             <option value="1000">Algiers (1000 DA)</option>
             <option value="1800">Oran (1800 DA)</option>
             <option value="180">Constantine (180 DA)</option>
@@ -57,13 +57,13 @@
             <div class="seat"></div>
             <div class="seat"></div>
             <div class="seat"></div>
-            <div class="seat"></div>
+            <div class="seat occupied"></div>
           </div>
           <div class="row">
             <div class="seat"></div>
             <div class="seat"></div>
             <div class="seat"></div>
-            <div class="seat"></div>
+            <div class="seat occupied"></div>
           </div>
           <div class="row">
             <div class="seat"></div>
@@ -75,42 +75,42 @@
             <div class="seat"></div>
             <div class="seat"></div>
             <div class="seat"></div>
-            <div class="seat"></div>
+            <div class="seat occupied"></div>
           </div>
           <div class="row">
+            <div class="seat"></div>
             <div class="seat"></div>
             <div class="seat"></div>
             <div class="seat occupied"></div>
-            <div class="seat"></div>
           </div>
           <div class="row">
             <div class="seat"></div>
-            <div class="seat occupied"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-          </div>
-          <div class="row">
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-          </div>
-          <div class="row">
-            <div class="seat occupied"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-          </div>
-          <div class="row">
             <div class="seat"></div>
             <div class="seat"></div>
             <div class="seat occupied"></div>
+          </div>
+          <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat occupied"></div>
+          </div>
+          <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat occupied"></div>
+          </div>
+          <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
             <div class="seat occupied"></div>
           </div>
         </div>
         <p class="text" style="color: black; font-weight: 600;">
           You have selcted <span id="count">0</span> seats for the price of
-          <span id="total">0 </span>Da
+          <span id="total"></span>
         </p>
       </div>
     </div>
