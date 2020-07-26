@@ -13,7 +13,7 @@
         <h1 style="color: #fff;">Book your seat</h1>
         <div class="destination-container">
           <label>Choose a destination</label>
-          <select value="destination" name="destination">
+          <select value="destination" id="destination">
             <option value="1000">Algiers (1000 DA)</option>
             <option value="1800">Oran (1800 DA)</option>
             <option value="180">Constantine (180 DA)</option>
@@ -60,8 +60,8 @@
             <div class="seat occupied"></div>
           </div>
           <div class="row">
-            <div class="seat"></div>
-            <div class="seat"></div>
+            <div class="seat occupied"></div>
+            <div class="seat occupied"></div>
             <div class="seat"></div>
             <div class="seat occupied"></div>
           </div>
@@ -105,12 +105,12 @@
             <div class="seat"></div>
             <div class="seat"></div>
             <div class="seat"></div>
-            <div class="seat occupied"></div>
+            <div class="seat"></div>
           </div>
         </div>
         <p class="text" style="color: black; font-weight: 600;">
           You have selcted <span id="count">0</span> seats for the price of
-          <span id="total"></span>
+          <span id="total">0</span>
         </p>
       </div>
     </div>

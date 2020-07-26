@@ -61,7 +61,8 @@ body {
   border-top-right-radius: 10px;
 }
 .seat.selected {
-  background-color: #12b4ed;
+  background-color: #6feaf6;
+  box-shadow: 0px 0px 4px 0.8px rgba(111, 234, 246, 0.8);
 }
 .seat.occupied {
   background-color: #ffffff;
@@ -101,4 +102,7 @@ body {
 }
 .showcase li small {
   margin-left: 2px;
+}
+span {
+  color: #ffffff;
 }
