@@ -1,6 +1,6 @@
 # Caesar Cipher
  
-![Demo CountPages alpha](../Demo/caesarCipfer/caesarCipher.gif)
+![Demo CountPages alpha](../Demo/caesarCipher/CaesarCipher.gif)
 
 ## Description
 
